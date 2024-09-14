@@ -1,0 +1,270 @@
+.hdr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #0e163d;
+}
+.navbar-name {
+  color: #fff;
+  margin-right: auto;
+  margin-bottom: auto;
+  font-size: 37px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+}
+
+
+.button {
+  background-color: #d3ecec;
+  border: 1px;
+  border-radius: 5px;
+  color: #0e163d;
+  width: 100%;
+  padding: 15px 32px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.img1 {
+  margin-left: 30px;
+}
+.img2 {
+  margin-left: 60px;
+}
+.card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  height: 320px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  width: 150px;
+  color: #0e163d;
+  margin-right: 10px;
+}
+
+select,
+input[type="number"] {
+  flex-grow: 1;
+  padding: 5px;
+  height: 50px;
+  margin-left: 40px;
+  color: #0e163d;
+  background-color: #d3ecec;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-container {
+  text-align: right;
+}
+
+button {
+  background-color: #0e163d;
+  color: #fff;
+  padding: 8px 16px;
+  width: 40%;
+  border: none;
+
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  color: #0e163d;
+  background-color: #d3ecec;
+}
+.card1 {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin-top: 30px;
+  height: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 50px;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+.container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card3 {
+  width: 100px;
+  height: 100px;
+  background-color: #f1f1f1;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.dropdown-btn {
+  color: #fff;
+  padding: 10px;
+  width: 174.52px;
+  height: 54px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 174.52px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+}
+.striped-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.striped-table th,
+.striped-table td {
+  padding: 8px;
+}
+
+.striped-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.striped-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.notification {
+  font-size: 30px;
+  margin-left: 100px;
+  color: #2d919c;
+  border-color: #0e163d;
+}
+
+col-md-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+
+
+.col-md-9 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+section {
+  display: block;
+}
+/* ===== Google Font Import - Poppins ===== */
+
+.card7 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  height: 320px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.doc-box {
+  height: 55px !important;
+}

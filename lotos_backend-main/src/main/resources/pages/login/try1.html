@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LOTUS">
+    <meta name="description" content="Üsküdar University">
+    <meta name="keywords" content="üsküdar,internship,lotus">
+    <link href="images/uskudar-universitesi-logo.png" rel="icon">
+    <title>IAS</title>
+    <link href = "css/bootstrap.min.css" rel="stylesheet">
+    <link href = "css/special/trying.css" rel="stylesheet">
+    <style>
+        @import url("css/all.css");
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="player" style="z-index: -100;">
+        <source src="videos/background.mp4" type="video/mp4"/>
+    </video>
+
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 text-center">
+            <img src="images/uskudar-universitesi-logo.png" alt="Logo" class="img-fluid mt-3 mb-1" style="width: 10rem; height: 10rem;">
+            <div class="entText text-uppercase mb-3 fw-bolder">Internshıp Applıcatıon System</div>
+                    <div class="entText text-uppercase mb-3"><small><small>Logın Page</small></small></div>
+          </div>
+        </div>
+        
+        
+    </div>
+
+    <ul class="nav align-items-center justify-content-center mb-5">
+        <div class = "btn-group glass" role="group" aria-label="Ayarlar">
+            <li onclick="student()"><a href="#students" class="btn btn-link text-reset text-decoration-none btn-md d-block pt-4 pb-4 btnHover">Students</a></li>
+            <li onclick="coordinator()"><a href="#internshipCoordinators" class="btn btn-link text-reset text-decoration-none btn-md d-block btnHover">Internship <br> Coordinators</a></li>
+            <li onclick="careerCenter()"><a href="#careerCenter" class="btn btn-link text-reset text-decoration-none btn-md d-block btnHover">Career <br> Center</a></li>
+            <li onclick="admin()"><a href="#admin" class="btn btn-link text-reset text-decoration-none btn-md d-block pt-4 pb-4 btnHover">Admin</a></li>
+        </div>
+    </ul>
+
+    <div class="wrapper" style="margin-top: 4rem!important;">
+        <div class="rec-prism">
+            <div class="face face-front">
+                <div class="content">
+                </div>
+            </div>
+            <div class="face face-left">
+                <div class="content">
+                    <h5>Students</h5>
+                    <form onsubmit="event.preventDefault()">
+                        <div class="field-wrapper">
+                            <input type="text" name="email" placeholder="email">
+                            <label>e-mail</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="password" name="password" placeholder="password" autocomplete="new-password">
+                            <label>password</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" onclick="showThankYou()" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="face face-front">
+                <div class="content">
+                    <h5>Internship Coordinators</h5>
+                    <form onsubmit="event.preventDefault()">
+                        <div class="field-wrapper">
+                            <input type="text" name="email" placeholder="email">
+                            <label>e-mail</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="password" name="password" placeholder="password" autocomplete="new-password">
+                            <label>password</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" onclick="showThankYou()" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="face face-right">
+                <div class="content">
+                    <h5>Career Center</h5>
+                    <form onsubmit="event.preventDefault()">
+                        <div class="field-wrapper">
+                            <input type="text" name="email" placeholder="email">
+                            <label>e-mail</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="password" name="password" placeholder="password" autocomplete="new-password">
+                            <label>password</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" onclick="showThankYou()" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="face face-back">
+                <div class="content">
+                    <h5>Admin</h5>
+                    <form onsubmit="event.preventDefault()">
+                        <div class="field-wrapper">
+                            <input type="text" name="email" placeholder="email">
+                            <label>e-mail</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="password" name="password" placeholder="password" autocomplete="new-password">
+                            <label>password</label>
+                        </div>
+                        <div class="field-wrapper">
+                            <input type="submit" onclick="showThankYou()" value="Submit"> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    
+
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/special/trying.js"></script>
+</body>
+</html>

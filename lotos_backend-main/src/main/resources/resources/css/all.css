@@ -1,0 +1,14 @@
+/* fontlar */ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto+Slab:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=PT+Serif&family=Roboto+Slab:wght@100;300;400;700&display=swap');
+/* Bootstrap İkonları */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"); 
+/* Bootstrap Dosyaları */
+@import url("bootstrap/bootstrap.min.css");
+/* özel css dosyaları */
+@import url("special/extra.css");
+@import url("special/trying.css");
+@import url("special/background.css");
+@import url("special/button.css");
+@import url("special/login.css");

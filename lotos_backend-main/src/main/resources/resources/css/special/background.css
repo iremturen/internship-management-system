@@ -1,0 +1,17 @@
+#player {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.glass {
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+    );
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.049);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
